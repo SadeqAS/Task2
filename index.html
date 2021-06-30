@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Motor direction</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="BTNcontainer">
+	<iframe name="iframe2" id="frame2" style="display: none;"></iframe>
+	<form id="form2" action="DBconnect.php" method = "POST" target="frame2">
+	
+		<fieldset>
+		<legend>Click on below button to move Motor direction:</legend>
+		<div class="PBTN">
+			
+			
+			<input type="submit" class="btn btn_F" id = "btn_F" value="Forward" name="btnF"/>
+			<span "id="V1"></span>
+			
+			
+			
+			<input type="submit" class="btn btn_L" id = "btn_L" value="Left" name="btnL"/>
+			<span "id="V2"></span>
+			
+			
+			
+			<input type="submit" class="btn btn_S" id = "btn_S" value="Stop" name="btnS"/>
+			 <span "id="V3"></span>
+			
+			
+		
+			<input type="submit" class="btn btn_R" id = "btn_R" value="Right" name="btnR"/>
+			<span "id="V4"></span>
+			
+			
+			
+			<input type="submit" class="btn btn_B" id = "btn_B" value="Backward" name="btnB"/>
+			 <span "id="V5"></span>
+			
+			
+		</fieldset>
+	</form>
+	</div>
+</div>
+<!-- 	<script src="jv.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   -->
+</body>
+ 
+</html>
